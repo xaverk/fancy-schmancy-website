@@ -3,7 +3,6 @@
 		margin: 0;
 		padding: 0;
 		cursor: default;
-		-webkit-transform: translateZ(0);
 	}
 	
 	body {
@@ -88,6 +87,7 @@
 		text-align: center;
 		text-transform: lowercase;
 		margin: 0;
+		-webkit-transform: translateZ(0);
 	}
 	
 	#sideBar > p {
