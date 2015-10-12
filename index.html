@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<title>WebDevAnrechung</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="navBar">
+				<div class="navSideBarHamburger" onclick="toggleSideBar()"></div>
+				<p>Fancy <span>Schmancy</span> Website</p>
+			</div>
+			<div id="sideBar">
+				<p><span>Fancy</span> Stuff</p>
+				<ul>
+					<li><span>- home -</spand></li>
+					<li><a onclick="goTo('art.html')">art</a></li>
+					<li><a onclick="goTo('tech.html')">tech</a></li>
+					<li><a onclick="goTo('music.html')">music</a></li>
+				</ul>
+			</div>
+			<div id="content">
+				<div class="banner">
+					<p>Fancy <span>Schmancy</span> Website</p>
+				</div>
+				<h1>Home</h1>
+				<p>
+					As we all know, the internet is a prett fancy place. 
+					Too much snazzy stuff to keep track of, in fact. This site aims to help you keep track of all the cool things
+					to see and do on the web.
+				</p>
+				<p>
+					This really fancy website will give you an overview of all the essential sites covering 
+					<a onclick="goTo('art.html')">art</a>, <a onclick="goTo('technology.html')">technology</a>, and <a onclick="goTo('music.html')">music</a>. 
+					Take a look around, maybe you see something you like!
+				</p>
+			</div>
+		</div>
+	</body>
+	<script src="javascript/script.js"></script>
+</html>

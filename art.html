@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+		<title>WebDevAnrechung</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="navBar">
+				<div class="navSideBarHamburger" onclick="toggleSideBar()"></div>
+				<p>Fancy <span>Schmancy</span> Website</p>
+			</div>
+			<div id="sideBar">
+				<p><span>Fancy</span> Stuff</p>
+				<ul>
+					<li><a onclick="goTo('index.html')">home</a></li>
+					<li><span>- art -</span></li>
+					<li><a onclick="goTo('tech.html')">tech</a></li>
+					<li><a onclick="goTo('music.html')">music</a></li>
+				</ul>
+			</div>
+			<div id="content">
+				<div class="banner">
+					<p>Fancy <span>Schmancy</span> Website</p>
+				</div>
+				<h1>Art</h1>
+				<p>Below you can find a curated list of all things art. Dig in!</p>
+				<div>
+					DeviantArt
+					<div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script src="javascript/script.js"></script>
+</html>
