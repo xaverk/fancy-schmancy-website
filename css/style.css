@@ -195,7 +195,7 @@
 	}
 }
 
-@media (max-width: 550px) {
+@media only screen and (max-width: 550px) {
 	#content {
 		height: calc(100vh - 60px);
 	}
@@ -247,7 +247,7 @@
 }
 
 
-@media (min-width: 700px) {
+@media only screen and (min-width: 700px) {
 	.navBar {
 		display: none;
 	}
