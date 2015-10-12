@@ -49,6 +49,9 @@
 		height: 100vh;
 		display:inline-block;
 		position: relative;
+		
+		/* force hardware acceleration */
+		 -webkit-transform: translateZ(0);
 	}
 	
 	#content > p {
@@ -115,6 +118,9 @@
 		background-color: #222;
 		margin-left: 0;
 		float: left;
+		
+		/* force hardware acceleration */
+    		-webkit-transform: translateZ(0);
 	}
 	
 	.animated {
