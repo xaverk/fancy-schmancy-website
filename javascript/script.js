@@ -1,10 +1,6 @@
 var initalSizeChange = true;
 var loaded = false;
 
-document.ontouchmove = function(event){
-    event.preventDefault();
-}
-
 window.addEventListener('resize', function(event) {
 	checkWindowSize();
 });
