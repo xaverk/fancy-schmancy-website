@@ -7,7 +7,7 @@ window.addEventListener('resize', function(event) {
 
 function checkWindowSize() {
 	var sideBar = document.getElementById("sideBar");
-	if (document.documentElement.clientWidth > 800) {
+	if (document.documentElement.clientWidth > 850) {
 		if (sideBar.className != "") {
 			sideBar.className = "";
 			document.getElementById("content-container").className = "";
