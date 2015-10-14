@@ -7,10 +7,10 @@ window.addEventListener('resize', function(event) {
 
 function checkWindowSize() {
 	var sideBar = document.getElementById("sideBar");
-	if (document.documentElement.clientWidth > 700) {
+	if (document.documentElement.clientWidth > 800) {
 		if (sideBar.className != "") {
 			sideBar.className = "";
-			document.getElementById("content").className = "";
+			document.getElementById("content-container").className = "";
 		}
 		initalSizeChange = true;
 	} else if (initalSizeChange == true) {
@@ -23,10 +23,10 @@ function toggleSideBar() {
 	var className = document.getElementById("sideBar").className;
 	if (className == "animated") {
 		document.getElementById("sideBar").className = "retracted animated";
-		document.getElementById("content").className = "animated";
+		document.getElementById("content-container").className = "animated";
 	} else {
 		document.getElementById("sideBar").className = "animated";
-		document.getElementById("content").className = "disabled animated";;
+		document.getElementById("content-container").className = "disabled animated";;
 	}
 }
 
