@@ -33,7 +33,7 @@ function toggleSideBar() {
 function goTo(URL) {
 	var delay = 0;
 	var sideBar = document.getElementById("sideBar");
-	if (document.documentElement.clientWidth < 700 && sideBar.className == "animated")
+	if (document.documentElement.clientWidth < 850 && sideBar.className == "animated")
 	{
 		delay = 0.35;
 		toggleSideBar();
